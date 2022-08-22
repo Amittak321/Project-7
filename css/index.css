@@ -179,33 +179,44 @@ nav img:nth-child(3) {
 }
 
 .discount {
-    width: 120px;
-    bottom: 80px;
-    left: -10px;
+  width: 120px;
+  bottom: 80px;
+  left: -10px;
 }
 
-.discount-content{
-    bottom: 110px;
-    left: 10px;
+.discount-content {
+  bottom: 110px;
+  left: 10px;
 }
 .discount-content h4 {
-    font-size: 10px;
-    margin-left: 15px;
-    color: #ffffff;
-    margin-bottom: -10px;
+  font-size: 10px;
+  margin-left: 15px;
+  color: #ffffff;
+  margin-bottom: -10px;
 }
 
 .discount-content h1 {
-    color: #ffffff;
-    font-weight: 900;
-    font-size: 38px;
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 38px;
 }
 
 @media only screen and (max-width: 800px) {
-    .intro-section {
-        flex-direction: column-reverse; 
-      }
-    .nav-items {
-        display: none;
-    }
+  .intro-section {
+    flex-direction: column-reverse;
+  }
+  .nav-items {
+    display: none;
+  }
+  .right-section {
+    margin: 0;
+  }
+  .headphone-div img:nth-child(3) {
+    width: 100%;
+  }
+
+  .sub-headlines{
+    margin-left: 50px;
+  }
+  
 }
